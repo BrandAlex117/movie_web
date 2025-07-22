@@ -57,5 +57,3 @@ async function getCategories() {
 
 }
 
-getTrendingMovies();
-getCategories();
