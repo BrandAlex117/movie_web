@@ -21,6 +21,19 @@ function navigator() {
 function homePage() {
   console.log('Home!!');
 
+  headerSection.classList.remove('header-container--long');
+  headerSection.style.background = '';
+  arrowBtn.classList.add('inactive');
+  headerCategoryTitle.classList.add('inactive');
+  headerTitle.classList.remove('inactive');
+  searchForm.classList.remove('inactive');
+
+  trendingPreviewSection.classList.remove('inactive');
+  categoriesPreviewSection.classList.remove('inactive');
+  genericSection.classList.add('inactive');
+  
+  
+
   getTrendingMovies();
   getCategories();
 }
